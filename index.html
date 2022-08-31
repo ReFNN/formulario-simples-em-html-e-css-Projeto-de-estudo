@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Archivo&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>COMPRE SUA PASSAGEM AÉREA</h1>
+  <form action="/submited.html">
+    <fieldset>
+    <legend>Dados Pessoais</legend>
+      <label for="tnome">NOME</label>
+      <input type="text" id="tnome" name="nome">
+      <label for="tsobrenome">SOBRENOME</label>
+      <input type="text" id="tsobrenome" name="sobrenome"><br><br>
+      <label for="temail">EMAIL</label>
+      <input type="email" id="temail" name="email">
+      <label for="tcelular">CELULAR</label>
+      <input type="tel" id="tcelular" name="celular"><br><br>
+      <div>SEXO</div>
+        <input type="radio" id="rmasc" name="sexo" value="masc">
+      <label for="sexo">MASCULINO</label><br>
+      <input type="radio" id="rfem" name="sexo" value="fem">
+      <label for="sexo">FEMININO</label><br>
+    </fieldset><br>
+    <fieldset>
+    <legend>Informações da Passagem</legend>
+      <label for="torigem">ORIGEM</label>
+        <select name="origem" id="torigem">
+          <option value="">-----</option>
+          <option value="PA">PARÁ</option>
+          <option value="MA">MARANHÃO</option>
+          <option value="SP">SÃO PAULO</option>
+          <option value="RJ">RIO DE JANEIRO</option>
+        </select>
+      <label for="tdestino">Destino</label>
+        <select name="destino" id="tdestino">
+          <option value="">-----</option>
+          <option value="CWB">CURITIBA</option>
+          <option value="SC">SANTA CATARINA</option>
+          <option value="MG">MINAS GERAIS</option>
+          <option value="PR">PARANÁ</option>
+        </select><br><br>
+      <label for="tsaida">DATA DE SAIDA</label>
+        <input type="date" id="tsaida" name="saida">
+      <label for="tchegada">DATA DE CHEGADA</label>
+        <input type="date" id="tchegada" name="chegada">
+    </fieldset><br>
+    <fieldset>
+      <label>Informações adicionais</label><br>
+      <textarea rows="4" cols="50"></textarea>
+    </fieldset>
+    <input type="submit" value="FINALIZAR" id="btfinalzar" >
+    <input type="reset" value="APAGAR" id="btreiniciar" >
+  </form>
+</body>
+
+</html>
